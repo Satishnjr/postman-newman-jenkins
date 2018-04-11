@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "0e78f9cf-5e6b-4bba-9c4d-b1c41a858e2f",
+		"name": "Collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Postman-Automation",
+			"description": null,
+			"item": [
+				{
+					"name": "POST Testing",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "203ebe2c-b832-46c6-b5fe-3c873ac25291",
+								"type": "text/javascript",
+								"exec": [
+									"{",
+									"        \"id\": \"542\",",
+									"        \"title\": \"Jenkins\",",
+									"        \"author\": \"raji\"",
+									"    }"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:3000/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET Testing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Testing",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Testing",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts/200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"200"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
